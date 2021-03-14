@@ -49,7 +49,7 @@ Running `file` on the downloaded file I found that it was only a data file.
 
 So I looked up the `.vbe` extentsion and found that it's a VBScript Encoded Script. These types of files aren't really used on Linux. So I copied over the file to the desktop and ran it. Some popups came up and ended up showing the flag.
 
-![n16](nahamcon_screenshots\2021-03\PvPjQqtrxW.png)
+![n1](/screenshots/PvPjQqtrxW.png)
 
 Flag: `flag{f805593d933f5433f2a04f082f400d8c}`
 
@@ -67,7 +67,7 @@ Flag: `flag{137288e960a3ae9b148e8a7db16a69b0}`
 
 The flag is found within the webpage source code of: `https://ctf.nahamcon.com/rules`
 
-![n2](nahamcon_screenshots\2021-03\vmware_hWfPg3pFye.png)
+![n2](/screenshots/vmware_hWfPg3pFye.png)
 
 Flag: `flag{90bc54705794a62015369fd8e86e557b}`
 
@@ -80,7 +80,7 @@ First we download the file and the running `file` on it reveals that it's a `.jp
 
 Doing some stego tricks I wasn't able to see anything suspicious. When I looked at the thumbnail in the folder I noticed some white writing on the bottom. However, when I opened the file the writing was no longer there. So zooming into the thumbnail you can see the flag
 
-![n14](nahamcon_screenshots\2021-03\vmware_1yGqSpoQfh.png)
+![n3](/screenshots/vmware_1yGqSpoQfh.png)
 
 Flag: `flag{65c34a1ec121a286600ddd48fe36bc00}`
 
@@ -92,7 +92,7 @@ Running strings on the file I get the output: `mxWYntnZiVjMxEjY0kDOhZWZ4cjYxIGZw
 
 I took this and ran it through ciphey to get the flag: `sudo docker run -it --rm remnux/ciphey -t "mxWYntnZiVjMxEjY0kDOhZWZ4cjYxIGZwQmY2ATMxEzNlFjNl13X"`
 
-![n11](nahamcon_screenshots\2021-03\vmware_jL1iVT7sxM.png)
+![n4](/screenshots/vmware_jL1iVT7sxM.png)
 
 Flag: `flag{fb5211b498afe87b1bd0db601117e16e}`
 
@@ -110,7 +110,7 @@ Doing some Google searching for: `eighth circle CTF` leads to a writeup which me
 
 Finding this site: `https://malbolge.doleczek.pl/` I entered in the string and ran the program and the flag was shown in the terminal.
 
-![n22](nahamcon_screenshots\2021-03\vmware_Xskewi0SSW.png)
+![n5](/screenshots/vmware_Xskewi0SSW.png)
 
 Flag: `flag{bf201f669b8c4adf8b91f09165ec8c5c}`
 
@@ -121,13 +121,13 @@ Flag: `flag{bf201f669b8c4adf8b91f09165ec8c5c}`
 
 Downloading the file and running `file` I found that it was UTF-8 Unicode text and when I tried reading the file in the terminal I got some weird looking icons.
 
-![n15](nahamcon_screenshots\2021-03\vmware_60IhczMK7y.png)
+![n6](/screenshots/vmware_60IhczMK7y.png)
 
 Searching this peculiar string in Google I found a WingDing translator website: `https://lingojam.com/WingDing`
 
 Entering in the string into the tool I was able to decode it into the flag.
 
-![n20](nahamcon_screenshots\2021-03\vmware_imMRbZrQPk.png)
+![n7](/screenshots/vmware_imMRbZrQPk.png)
 
 Flag: `flag{e0791ce68f718188c0378b1c0a3bdc9e}`
 
@@ -139,7 +139,7 @@ With the `QWERTY` hint I looked around Google and found out that it might be a k
 
 I used this site and was able to decode the key: `https://www.boxentriq.com/code-breaking/keyed-caesar-cipher`
 
-![n18](nahamcon_screenshots\2021-03\vmware_A1yzlsCtt0.png)
+![n8](/screenshots/vmware_A1yzlsCtt0.png)
 
 Flag: `flag{6f980c0101c8aa361977cac06508a3de}`
 
@@ -169,7 +169,7 @@ Logging into this SSH connection all of a sudden nonsense starts scrolling down 
 
 `grep flag output.txt`, this shows that the flag appears multiple times throughout the text file.
 
-![n17](nahamcon_screenshots\2021-03\vmware_8GGcUjKZcf.png)
+![n9](/screenshots/vmware_8GGcUjKZcf.png)
 
 Flag: `flag{db758a0cc25523993416c305ef15f9ad}`
 
@@ -183,7 +183,7 @@ Opening the link shown brings you to a Discord channel: `https://discord.com/inv
 
 Going to the `#ine-career-corner` you can see the flag in the channel description
 
-![n3](nahamcon_screenshots\2021-03\Discord_m4W4yl3eCY.png)
+![n10](/screenshots/Discord_m4W4yl3eCY.png)
 
 Flag: `flag{e713de181584836c9499811f13cb0e62}`
 
@@ -195,7 +195,7 @@ Opening the link shown brings you to a Discord channel: `https://discord.com/inv
 
 Going to the `#iot-village` you can see the flag in the channel description
 
-![n4](\nahamcon_screenshots\2021-03\Discord_GD4KVP8xEM.png)
+![n11](/screenshots/Discord_GD4KVP8xEM.png)
 
 Flag: `flag{1ff473816ef21857cc62f838e8a33fc7}`
 
@@ -207,7 +207,7 @@ Opening the link shown brings you to a Discord channel: `https://discord.com/inv
 
 Going to the `#htb-village` you can see the flag in the channel description
 
-![n5](nahamcon_screenshots\2021-03\Discord_EQyDrtqoKl.png)
+![n12](/screenshots/Discord_EQyDrtqoKl.png)
 
 Flag: `flag{437f3e5ecdd39a29d695e2e31603f5b4}`
 
@@ -219,7 +219,7 @@ Opening the link shown brings you to a Discord channel: `https://discord.com/inv
 
 Going to the `#red-team-village` you can see the flag in the channel description
 
-![n6](nahamcon_screenshots\2021-03\Discord_7X7aoPYa4r.png)
+![n13](/screenshots/Discord_7X7aoPYa4r.png)
 
 Flag: `flag{fd59547d85953cac9dd5f378daed2157}`
 
@@ -231,7 +231,7 @@ Opening the link shown brings you to a Discord channel: `https://discord.com/inv
 
 Going to the `#live-recon-village` you can see the flag in the channel description
 
-![n7](nahamcon_screenshots\2021-03\Discord_HL7jBBSkAN.png)
+![n14](/screenshots/Discord_HL7jBBSkAN.png)
 
 Flag: `flag{2795da9d0d2055d259a3fb4d6b78629c}`
 
@@ -244,7 +244,7 @@ Clicking the link shown brings you to the site: `https://www.nahamcon.com/merch`
 
 Viewing the web page source code and searching for `flag` you'll find the flag in a comment
 
-![n8](nahamcon_screenshots\2021-03\vmware_EivJl5iR5U.png)
+![n15](/screenshots/vmware_EivJl5iR5U.png)
 
 Flag: `flag{fafc10617631126361c693a2a3fce5a7}`
 
@@ -256,7 +256,7 @@ Flag: `flag{fafc10617631126361c693a2a3fce5a7}`
 
 Using the following Google dork the flag appears at the very top of the results: `site:twitter.com intext:#NahamCon2021 intext:flag`
 
-![n10](nahamcon_screenshots\2021-03\firefox_6Pbw3O4Whx.png)
+![n16](/screenshots/firefox_6Pbw3O4Whx.png)
 
 Flag: `flag{e36bc5a67dd2fe5f33b62123f78fbcef}`
 
@@ -268,7 +268,7 @@ Opening the link shown brings you to a Discord channel: `https://discord.gg/C6wv
 
 Going to the `uhc-br` you can see the flag in the channel description
 
-![n12](nahamcon_screenshots\2021-03\Discord_N50DKmOn3b.png)
+![n17](/screenshots/Discord_N50DKmOn3b.png)
 
 Flag: `flag{120c45c7b99d8cba1567441f5bef599e}`
 
@@ -278,7 +278,7 @@ Flag: `flag{120c45c7b99d8cba1567441f5bef599e}`
 
 The flag is found within the webpage source code of: `https://ctf.nahamcon.com/mission`
 
-![n1](nahamcon_screenshots\vmware_Bi5Bj5czpn.png)
+![n18](/screenshots/vmware_Bi5Bj5czpn.png)
 
 Flag: `flag{48e117a1464c3202714dc9a350533a59}`
 
@@ -301,13 +301,13 @@ So let's see if there's a git leak by going to: `https://constellations.page/.gi
 
 Using GitTools found at: `https://github.com/internetwache/GitTools` I used the Dumper tool specifcally to find whatever was available from `.git` and download it locally: `./gitdumper.sh https://constellations.page/.git/ .`
 
-![n23](nahamcon_screenshots\2021-03\vmware_YT8lhfIbfv.png)
+![n19](/screenshots/vmware_YT8lhfIbfv.png)
 
 I then used the Extractor tool from the same toolset to extract the commits and content to a separate directory: `meet_the_team/GitTools/Extractor/extractor.sh meet_the_team meet_the_team/extracted`
 
 I then used the following command to look for the flag regex: `grep -RE 'flag\{[0-9a-f]{32}\}.'` which then resulted in the flag which was located in `meet-the-team.html`
 
-![n24](nahamcon_screenshots\2021-03\vmware_OdvWLlIKuS.png)
+![n20](/screenshots/vmware_OdvWLlIKuS.png)
 
 Flag: `flag{4063962f3a52f923ddb4411c139dd24c}`
 
@@ -321,7 +321,7 @@ Flag: `flag{4063962f3a52f923ddb4411c139dd24c}`
 
 Looking at the `robots.txt` we find the flag for this challenge and also what looks like a clue for another challenge.
 
-![n13](nahamcon_screenshots\2021-03\vmware_26XEAEsZ7V.png)
+![n21](/screenshots/vmware_26XEAEsZ7V.png)
 
 Flag: `flag{33b5240485dda77430d3de22996297a1}`
 
@@ -333,11 +333,11 @@ Flag: `flag{33b5240485dda77430d3de22996297a1}`
 
 While I was working on the challenege Meet The Team, I was scouting out the webpage and I saw that there was a link to a hithub repo for Constellations. There was one person listed under 'People' on the repo and his name was Gus Rodry.
 
-![n25](nahamcon_screenshots\2021-03\vmware_6QW0GFiYdd.png)
+![n22](/screenshots/vmware_6QW0GFiYdd.png)
 
 Clicking on his profile lead to the repoistories that he is involved with, one called `development` that as to do with Constellations. Looking at this repo there was a reference to a `flag.txt`, which clicking on the link revealed the flag.
 
-![n26](nahamcon_screenshots\2021-03\vmware_CNBcijf2ZY.png)
+![n23](/screenshots/vmware_CNBcijf2ZY.png)
 
 Flag: `flag{84d5cc7e162895fa0a5834f1efdd0b32}`
 
@@ -374,7 +374,7 @@ I downloaded a tool call `xcat` from: `https://github.com/mstrand/xcat`. I then 
 
 I created a sheet in Excel to plot out my findings as I went along, and eventually I got the flag!
 
-![n30](nahamcon_screenshots\2021-03\EXCEL_itFqAiOQUg.png)
+![n24](/screenshots/EXCEL_itFqAiOQUg.png)
 
 Flag: `flag{16edfce5c12443b61828af6cab90dc79}`
 
@@ -419,7 +419,7 @@ There was a few files that showed up. So the next step was trying to download th
 
 I then transferred the files to my Windows desktop and renamed the file extensions to `.docx` so it would open correctly. I then explored the files and I found one which contained the flag!
 
-![n32](nahamcon_screenshots\2021-03\WINWORD_sMQtJP2cwk.png)
+![n25](/screenshots/WINWORD_sMQtJP2cwk.png)
 
 Flag: `flag{c442f9ee67c7ab471bb5643a9346cf5e}`
 
@@ -451,7 +451,7 @@ Opening the file within Android Studio and looking around, I found the password 
 
 Entering the above password into the emulator running `resourceful.apk` yields the flag
 
-![n28](nahamcon_screenshots\2021-03\qemu-system-x86_64_dKKOpn6dEH.png)
+![n26](/screenshots/qemu-system-x86_64_dKKOpn6dEH.png)
 
 Flag: `flag{7eecc051f5cb3a40cd6bda40de6eeb32}`
 
@@ -465,7 +465,7 @@ Flag: `flag{7eecc051f5cb3a40cd6bda40de6eeb32}`
 
 Viewing the website page source and looking down through I noticed something odd, what appears to be base64.
 
-![n29](nahamcon_screenshots\2021-03\vmware_M2TU5xlFtR.png)
+![n27](/screenshots/vmware_M2TU5xlFtR.png)
 
 Putting that value into Cyberchef using the `From Base64` recipe got me the flag.
 
